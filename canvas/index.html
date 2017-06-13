@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>canvas test</title>
+</head>
+<body>
+<canvas id="canvas" width='600' height='400' style="border:1px solid #000000;">
+	您的浏览器不支持canvas
+</canvas><br />
+<button onclick="xiao_loadImg('./test.jpg')">载入图片</button><br />
+<button onclick="xiao_beginStatus()">开始划区</button><br />
+<button onclick="xiao_endStatus()">取消划区</button><br />
+<input type="number" name="" value=0 id="create_number_title"><button onclick="xiao_finishDraw()">完成划区</button>
+<br />
+<input type="number" name="" value=0 id="delete_number_title"><button onclick="xiao_deleteArea()">删除划区</button><br />
+<button onclick="xiao_getAllAreas()">获取所有节点信息</button><br />
+</body>
+
+<script type="text/javascript" src="./getArea.js"></script>
+<script type="text/javascript">
+	
+</script>
+</html>
